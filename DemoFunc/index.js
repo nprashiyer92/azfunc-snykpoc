@@ -1,4 +1,5 @@
 const _ = require("lodash");
+const lytt = require("lyft-dataset-sdk")
 module.exports = async function (context, req) {
     let nums = [1, 2, 3, 4, 5, 6, 7, 8];
     console.log(_.nth(nums, 3));
